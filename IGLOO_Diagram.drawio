@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T22:10:48.669Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4.1 Safari/605.1.15" etag="30Yi-DFqVlEBSCIkluf0" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T22:13:16.566Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4.1 Safari/605.1.15" etag="bowrmw2cR1areVt-nV87" version="21.1.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="954" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -433,6 +433,29 @@
         </mxCell>
         <mxCell id="MBrasm7TY85NGVQSHdWs-119" value="ConvertCoordinateToRectPosition()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MBrasm7TY85NGVQSHdWs-114">
           <mxGeometry y="42" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="MBrasm7TY85NGVQSHdWs-120" value="ParameterImageValueDisplay" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="1350" width="220" height="174" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBrasm7TY85NGVQSHdWs-121" value="Image parameterImage" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="MBrasm7TY85NGVQSHdWs-120">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MBrasm7TY85NGVQSHdWs-122" value="TextMeshProUGUI parameterValueText" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="MBrasm7TY85NGVQSHdWs-120">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MBrasm7TY85NGVQSHdWs-123" value="Vector2 offsetValueFromImage" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MBrasm7TY85NGVQSHdWs-120">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MBrasm7TY85NGVQSHdWs-126" value="Vector2 offsetPosition" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MBrasm7TY85NGVQSHdWs-120">
+          <mxGeometry y="104" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MBrasm7TY85NGVQSHdWs-124" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="MBrasm7TY85NGVQSHdWs-120">
+          <mxGeometry y="130" width="220" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="MBrasm7TY85NGVQSHdWs-125" value="..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MBrasm7TY85NGVQSHdWs-120">
+          <mxGeometry y="146" width="220" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
